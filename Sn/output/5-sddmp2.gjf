@@ -1,0 +1,7 @@
+%mem=32GB
+%nproc=12
+%chk=5-sddmp2.chk
+# opt freq=noraman mp2/sdd geom=allcheck
+
+Title Card Required
+

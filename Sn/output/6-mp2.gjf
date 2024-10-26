@@ -1,0 +1,7 @@
+%mem=32GB
+%nproc=12
+%chk=6-mp2.chk
+# opt freq=noraman mp2/lanl2dz geom=allcheck
+
+Title Card Required
+
