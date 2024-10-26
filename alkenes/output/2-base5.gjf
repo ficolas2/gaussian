@@ -1,3 +1,5 @@
+%mem=32GB
+%nproc=12
 %chk=2-base5.chk
 # opt freq=noraman hf/cc-pvtz geom=connectivity
 

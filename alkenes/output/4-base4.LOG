@@ -1,7 +1,7 @@
  Entering Gaussian System, Link 0=g09
  Initial command:
- /u/local/G09/g09/l1.exe /tmp/marlin/22980.mallos00.local/Gau-12830.inp -scrdir=/tmp/marlin/22980.mallos00.local/
- Entering Link 1 = /u/local/G09/g09/l1.exe PID=     12832.
+ /u/local/G09/g09/l1.exe /tmp/marlin/23010.mallos00.local/Gau-7261.inp -scrdir=/tmp/marlin/23010.mallos00.local/
+ Entering Link 1 = /u/local/G09/g09/l1.exe PID=      7263.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009, Gaussian, Inc.
                   All Rights Reserved.
@@ -76,7 +76,7 @@
  Gaussian 09:  EM64L-G09RevA.01  8-May-2009
                 26-Oct-2024 
  ******************************************
- %mem=103GB
+ %mem=206GB
  %nproc=20
  Will use up to   20 processors via shared memory.
  %chk=4-base4.chk
@@ -418,7 +418,7 @@
  Iteration  2 RMS(Cart)=  0.00201566 RMS(Int)=  0.00000160
  Iteration  3 RMS(Cart)=  0.00000216 RMS(Int)=  0.00000000
  Iteration  4 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 4.27D-11 for atom     1.
+ ClnCor:  largest displacement from symmetrization is 3.59D-11 for atom     7.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.56096  -0.04675   0.00000  -0.08300  -0.08300   2.47795
@@ -609,7 +609,7 @@
  Iteration  1 RMS(Cart)=  0.02667202 RMS(Int)=  0.00013601
  Iteration  2 RMS(Cart)=  0.00017395 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000001 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 1.88D-11 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 6.52D-11 for atom     8.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.47795   0.00937  -0.00144   0.01567   0.01423   2.49219
@@ -718,7 +718,7 @@
  Two-electron integral symmetry is turned on.
    108 basis functions,   264 primitive gaussians,   114 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       261.9902685039 Hartrees.
+       nuclear repulsion energy       261.9902685040 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=   108 RedAO= T  NBF=    79    29
@@ -795,12 +795,12 @@
      Eigenvalues ---    0.37340   0.53923   0.55964   0.666231000.00000
      Eigenvalues --- 1000.000001000.000001000.000001000.000001000.00000
      Eigenvalues --- 1000.000001000.000001000.00000
- RFO step:  Lambda=-3.39783085D-05 EMin= 2.36824121D-03
+ RFO step:  Lambda=-3.39783090D-05 EMin= 2.36824121D-03
  Quartic linear search produced a step of -0.17904.
  Iteration  1 RMS(Cart)=  0.00511604 RMS(Int)=  0.00000925
  Iteration  2 RMS(Cart)=  0.00001058 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 4.73D-11 for atom     1.
+ ClnCor:  largest displacement from symmetrization is 2.72D-11 for atom     1.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.49219  -0.00298  -0.00255  -0.00113  -0.00368   2.48851
@@ -909,7 +909,7 @@
  Two-electron integral symmetry is turned on.
    108 basis functions,   264 primitive gaussians,   114 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       262.0838347479 Hartrees.
+       nuclear repulsion energy       262.0838347466 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=   108 RedAO= T  NBF=    79    29
@@ -986,11 +986,11 @@
      Eigenvalues ---    0.37510   0.53415   0.54404   0.685631000.00000
      Eigenvalues --- 1000.000001000.000001000.000001000.000001000.00000
      Eigenvalues --- 1000.000001000.000001000.00000
- RFO step:  Lambda=-1.12571969D-06 EMin= 2.36824121D-03
+ RFO step:  Lambda=-1.12571967D-06 EMin= 2.36824121D-03
  Quartic linear search produced a step of  0.03077.
  Iteration  1 RMS(Cart)=  0.00073876 RMS(Int)=  0.00000035
  Iteration  2 RMS(Cart)=  0.00000034 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 5.99D-13 for atom     8.
+ ClnCor:  largest displacement from symmetrization is 1.39D-12 for atom     7.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.48851   0.00023  -0.00011   0.00051   0.00039   2.48890
@@ -1099,7 +1099,7 @@
  Two-electron integral symmetry is turned on.
    108 basis functions,   264 primitive gaussians,   114 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       262.0886739174 Hartrees.
+       nuclear repulsion energy       262.0886739172 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=   108 RedAO= T  NBF=    79    29
@@ -1166,11 +1166,11 @@
      Eigenvalues --- 1000.000001000.000001000.000001000.000001000.00000
      Eigenvalues --- 1000.000001000.000001000.00000
  En-DIIS/RFO-DIIS IScMMF=        0 using points:     5    4
- RFO step:  Lambda=-2.43310734D-08.
+ RFO step:  Lambda=-2.43310733D-08.
  DIIS coeffs:      1.01530     -0.01530
  Iteration  1 RMS(Cart)=  0.00027049 RMS(Int)=  0.00000003
  Iteration  2 RMS(Cart)=  0.00000003 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 1.30D-13 for atom     1.
+ ClnCor:  largest displacement from symmetrization is 1.77D-13 for atom     1.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                   (DIIS)     (GDIIS)  (Total)
     R1        2.48890  -0.00002   0.00001  -0.00004  -0.00003   2.48887
@@ -1421,12 +1421,12 @@
  XXXZ=              0.0000 YYYX=           -114.0580 YYYZ=              0.0000 ZZZX=              0.0000
  ZZZY=              0.0000 XXYY=           -166.4441 XXZZ=            -55.6157 YYZZ=           -160.1854
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=            -48.7587
- N-N= 2.620886739174D+02 E-N=-2.214374228362D+03  KE= 7.127142520537D+02
+ N-N= 2.620886739172D+02 E-N=-2.214374228362D+03  KE= 7.127142520537D+02
  Symmetry A'   KE= 6.564251903856D+02
  Symmetry A"   KE= 5.628906166811D+01
- 1\1\GINC-MALLOS69\FOpt\RHF\CC-pVDZ\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\# o
+ 1\1\GINC-MALLOS72\FOpt\RHF\CC-pVDZ\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\# o
  pt freq=noraman hf/cc-pvdz geom=connectivity\\Title Card Required\\0,1
- \C,-2.0847264482,-1.6673599006,0.\C,-1.3916471807,-0.5473965519,0.\C,0
+ \C,-2.0847264482,-1.6673599006,0.\C,-1.3916471808,-0.5473965519,0.\C,0
  .074088303,-0.501632777,0.\H,0.5927721325,-1.451750336,0.\C,0.76541567
  29,0.629698149,0.\H,0.2780750541,1.5977474962,0.\H,1.8471828376,0.6239
  795588,0.\Cl,-3.8028348882,-1.7652859753,0.\F,-1.5293068332,-2.8607560
@@ -1436,16 +1436,11 @@
  CS [SG(C4H4Cl1F1)]\\@
 
 
- THERE IS AN OLD, OLD RECIPE IN MAINE FOR STEWING COOT. PLACE THE
- BIRD IN A KETTLE OF WATER WITH A RED BUILDING BRICK FREE OF MORTAR AND
- BLEMISHES. PARBOIL THE COOT AND BRICK TOGETHER FOR THREE HOURS.
- POUR OFF THE WATER, REFILL THE KETTLE, AND AGAIN PARBOIL FOR THREE HOURS.
- ONCE AGAIN POUR OFF THE WATER, FOR THE LAST TIME ADD FRESH WATER,
- AND LET THE COOT AND BRICK SIMMER TOGETHER OVERNIGHT. IN THE MORNING,
- THROW AWAY THE COOT AND EAT THE BRICK.
- Job cpu time:  0 days  0 hours  3 minutes 36.4 seconds.
+ A COMPUTER IS LIKE A HORSE, IT WILL SENSE WEAKNESS.
+     -- GREG WETTSTEIN
+ Job cpu time:  0 days  0 hours  3 minutes 35.6 seconds.
  File lengths (MBytes):  RWF=      9 Int=      0 D2E=      0 Chk=      2 Scr=      1
- Normal termination of Gaussian 09 at Sat Oct 26 19:17:26 2024.
+ Normal termination of Gaussian 09 at Sat Oct 26 18:14:25 2024.
  Link1:  Proceeding to internal job step number  2.
  ----------------------------------------------------------------
  #N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RHF/CC-pVDZ Freq
@@ -1469,7 +1464,7 @@
  4-base4.chk
  Charge =  0 Multiplicity = 1
  C,0,-2.0847264482,-1.6673599006,0.
- C,0,-1.3916471807,-0.5473965519,0.
+ C,0,-1.3916471808,-0.5473965519,0.
  C,0,0.074088303,-0.501632777,0.
  H,0,0.5927721325,-1.451750336,0.
  C,0,0.7654156729,0.629698149,0.
@@ -1592,7 +1587,7 @@
  Two-electron integral symmetry is turned on.
    108 basis functions,   264 primitive gaussians,   114 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       262.0886739174 Hartrees.
+       nuclear repulsion energy       262.0886739172 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=   108 RedAO= T  NBF=    79    29
@@ -1784,14 +1779,14 @@
  XXXZ=              0.0000 YYYX=           -114.0580 YYYZ=              0.0000 ZZZX=              0.0000
  ZZZY=              0.0000 XXYY=           -166.4441 XXZZ=            -55.6157 YYZZ=           -160.1854
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=            -48.7587
- N-N= 2.620886739174D+02 E-N=-2.214374228202D+03  KE= 7.127142518971D+02
+ N-N= 2.620886739172D+02 E-N=-2.214374228201D+03  KE= 7.127142518971D+02
  Symmetry A'   KE= 6.564251902254D+02
- Symmetry A"   KE= 5.628906167173D+01
+ Symmetry A"   KE= 5.628906167174D+01
   Exact polarizability:  47.249  11.745  96.088   0.000   0.000  23.097
  Approx polarizability:  43.113   4.512  71.640   0.000   0.000  25.734
  Calling FoFJK, ICntrl=    100127 FMM=F ISym2X=1 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
  Full mass-weighted force constant matrix:
- Low frequencies ---   -2.2114   -1.1491   -0.0018    0.0018    0.0023    4.1298
+ Low frequencies ---   -2.2114   -1.1491    0.0016    0.0029    0.0036    4.1298
  Low frequencies ---  129.0337  172.3603  221.9517
  Diagonal vibrational polarizability:
         4.7775424       7.5268228       2.9674685
@@ -2052,7 +2047,7 @@
  Linear search not attempted -- first point.
  Iteration  1 RMS(Cart)=  0.00028278 RMS(Int)=  0.00000004
  Iteration  2 RMS(Cart)=  0.00000004 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 6.87D-15 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 1.76D-15 for atom     1.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.48890  -0.00002   0.00000  -0.00001  -0.00001   2.48889
@@ -2138,9 +2133,9 @@
  --------------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- 1\1\GINC-MALLOS69\Freq\RHF\CC-pVDZ\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\#N 
+ 1\1\GINC-MALLOS72\Freq\RHF\CC-pVDZ\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\#N 
  Geom=AllCheck Guess=TCheck SCRF=Check GenChk RHF/CC-pVDZ Freq\\Title C
- ard Required\\0,1\C,-2.0847264482,-1.6673599006,0.\C,-1.3916471807,-0.
+ ard Required\\0,1\C,-2.0847264482,-1.6673599006,0.\C,-1.3916471808,-0.
  5473965519,0.\C,0.074088303,-0.501632777,0.\H,0.5927721325,-1.45175033
  6,0.\C,0.7654156729,0.629698149,0.\H,0.2780750541,1.5977474962,0.\H,1.
  8471828376,0.6239795588,0.\Cl,-3.8028348882,-1.7652859753,0.\F,-1.5293
@@ -2217,8 +2212,14 @@
  00001462,0.,0.00000415,0.00002653,0.\\\@
 
 
- Everywhere is walking distance if you have the time.
-                                    -- Steven Wright
- Job cpu time:  0 days  0 hours  1 minutes 36.4 seconds.
+ O WAD SOME POWER THE GIFTIE GIE US       
+ TO SEE OURSELS AS OTHERS SEE US.....     
+ IT WOULD FRAE MONIE A BLUNDER FREE US,   
+                     AND FOOLISH NOTION...
+ WHAT AIRS IN DRESS AND GAIT WAD LEA'E US,
+                     AND EV'N DEVOTION....
+                                          
+              (ROBERT BURNS 'TO A LOUSE') 
+ Job cpu time:  0 days  0 hours  1 minutes 40.3 seconds.
  File lengths (MBytes):  RWF=     19 Int=      0 D2E=      0 Chk=      2 Scr=      1
- Normal termination of Gaussian 09 at Sat Oct 26 19:17:31 2024.
+ Normal termination of Gaussian 09 at Sat Oct 26 18:14:31 2024.

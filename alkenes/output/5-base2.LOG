@@ -1,7 +1,7 @@
  Entering Gaussian System, Link 0=g09
  Initial command:
- /u/local/G09/g09/l1.exe /tmp/marlin/22983.mallos00.local/Gau-14568.inp -scrdir=/tmp/marlin/22983.mallos00.local/
- Entering Link 1 = /u/local/G09/g09/l1.exe PID=     14570.
+ /u/local/G09/g09/l1.exe /tmp/marlin/23013.mallos00.local/Gau-7297.inp -scrdir=/tmp/marlin/23013.mallos00.local/
+ Entering Link 1 = /u/local/G09/g09/l1.exe PID=      7299.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009, Gaussian, Inc.
                   All Rights Reserved.
@@ -414,7 +414,7 @@
  Iteration  2 RMS(Cart)=  0.00305031 RMS(Int)=  0.00000116
  Iteration  3 RMS(Cart)=  0.00000129 RMS(Int)=  0.00000000
  Iteration  4 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 9.93D-16 for atom     8.
+ ClnCor:  largest displacement from symmetrization is 6.28D-16 for atom     4.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.56096  -0.04799   0.00000  -0.08536  -0.08536   2.47560
@@ -604,7 +604,7 @@
  Iteration  1 RMS(Cart)=  0.02218548 RMS(Int)=  0.00014376
  Iteration  2 RMS(Cart)=  0.00015292 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 1.11D-15 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 9.07D-15 for atom     7.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.47560   0.01203   0.00081   0.01810   0.01892   2.49452
@@ -794,7 +794,7 @@
  Iteration  1 RMS(Cart)=  0.00386997 RMS(Int)=  0.00000578
  Iteration  2 RMS(Cart)=  0.00000570 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 4.78D-15 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 5.01D-15 for atom     7.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.49452  -0.00409  -0.00295  -0.00237  -0.00531   2.48921
@@ -903,7 +903,7 @@
  Two-electron integral symmetry is turned on.
    102 basis functions,   208 primitive gaussians,   102 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       266.6963748204 Hartrees.
+       nuclear repulsion energy       266.6963748200 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=   102 RedAO= T  NBF=    77    25
@@ -975,7 +975,7 @@
  Iteration  1 RMS(Cart)=  0.00163798 RMS(Int)=  0.00000095
  Iteration  2 RMS(Cart)=  0.00000145 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 9.16D-16 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 1.26D-15 for atom    10.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                   (DIIS)     (GDIIS)  (Total)
     R1        2.48921   0.00008  -0.00025   0.00028   0.00003   2.48923
@@ -1151,11 +1151,11 @@
      Eigenvalues --- 1000.000001000.000001000.000001000.000001000.00000
      Eigenvalues --- 1000.000001000.000001000.00000
  En-DIIS/RFO-DIIS IScMMF=        0 using points:     5    4    3
- RFO step:  Lambda=-3.96332828D-08.
+ RFO step:  Lambda=-3.96332833D-08.
  DIIS coeffs:      1.00895     -0.00709     -0.00186
  Iteration  1 RMS(Cart)=  0.00014251 RMS(Int)=  0.00000001
  Iteration  2 RMS(Cart)=  0.00000001 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 1.40D-15 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 3.63D-14 for atom    10.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                   (DIIS)     (GDIIS)  (Total)
     R1        2.48923   0.00000  -0.00001  -0.00002  -0.00003   2.48920
@@ -1406,32 +1406,24 @@
  N-N= 2.666939675110D+02 E-N=-2.223315417870D+03  KE= 7.121312819275D+02
  Symmetry A'   KE= 6.558270900953D+02
  Symmetry A"   KE= 5.630419183215D+01
- 1\1\GINC-MALLOS69\FOpt\RHF\6-31G(d)\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\# 
+ 1\1\GINC-MALLOS73\FOpt\RHF\6-31G(d)\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\# 
  opt freq=noraman hf/6-31G(d) geom=connectivity\\Title Card Required\\0
  ,1\C,-2.0825706108,-1.6763878241,0.\C,-1.4078306919,-0.5450784944,0.\C
  ,0.057721019,-0.4677495931,0.\H,0.5424358418,-1.4269374043,0.\C,0.7816
  086177,0.636470115,0.\H,0.3456352589,1.6174355861,0.\H,1.854392881,0.5
- 808663802,0.\F,-1.4566248474,-2.8459348656,0.\Cl,-2.3354524154,0.93012
+ 808663802,0.\F,-1.4566248473,-2.8459348657,0.\Cl,-2.3354524154,0.93012
  66577,0.\H,-3.148491293,-1.7671295373,0.\\Version=EM64L-G09RevA.01\Sta
  te=1-A'\HF=-712.663762\RMSD=8.343e-09\RMSF=4.086e-05\Dipole=0.1080012,
  -0.0584579,0.\Quadrupole=3.3442073,-1.339152,-2.0050553,2.0802438,0.,0
  .\PG=CS [SG(C4H4Cl1F1)]\\@
 
 
- THESE ARE THE TIMES THAT TRY MENS SOULS.
- THE SUMMER SOLDIER AND THE SUNSHINE PATRIOT WILL IN THIS CRISIS,
- SHRINK FROM THE SERVICE OF HIS COUNTRY.  BUT HE THAT STANDS NOW,
- DESERVES THE LOVE AND THANKS OF MAN AND WOMAN.
- TYRANNY, LIKE HELL, IS NOT EASILY CONQUERED,
- YET WE HAVE THIS CONSOLATION WITH US,
- THAT THE HARDER THE CONFLICT, THE MORE GLORIOUS THE TRIUMPH.
- WHAT WE OBTAIN TOO CHEAP, WE ESTEEM TOO LIGHTLY, 
- 'TIS DEARNESS ONLY THAT GIVES EVERYTHING ITS VALUE.
+ THE PROMISED LAND ALWAYS LIES ON THE OTHER SIDE OF A WILDERNESS.
 
-                                              -- TOM PAINE
- Job cpu time:  0 days  0 hours  3 minutes  5.2 seconds.
+                         -- HAVELOCK ELLIS
+ Job cpu time:  0 days  0 hours  2 minutes 55.0 seconds.
  File lengths (MBytes):  RWF=      9 Int=      0 D2E=      0 Chk=      2 Scr=      1
- Normal termination of Gaussian 09 at Sat Oct 26 19:18:24 2024.
+ Normal termination of Gaussian 09 at Sat Oct 26 18:15:23 2024.
  Link1:  Proceeding to internal job step number  2.
  -----------------------------------------------------------------
  #N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RHF/6-31G(d) Freq
@@ -1461,7 +1453,7 @@
  C,0,0.7816086177,0.636470115,0.
  H,0,0.3456352589,1.6174355861,0.
  H,0,1.854392881,0.5808663802,0.
- F,0,-1.4566248474,-2.8459348656,0.
+ F,0,-1.4566248473,-2.8459348657,0.
  Cl,0,-2.3354524154,0.9301266577,0.
  H,0,-3.148491293,-1.7671295373,0.
  Recover connectivity data from disk.
@@ -1773,7 +1765,7 @@
  Approx polarizability:  45.921  -6.614  63.788   0.000   0.000  22.716
  Calling FoFJK, ICntrl=    100127 FMM=F ISym2X=1 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
  Full mass-weighted force constant matrix:
- Low frequencies ---   -3.4106   -3.1412   -2.7104   -0.0031    0.0024    0.0032
+ Low frequencies ---   -3.4106   -3.1412   -2.7104   -0.0027    0.0016    0.0044
  Low frequencies ---  134.1266  221.1256  283.6784
  Diagonal vibrational polarizability:
         4.7087672       4.7661921       5.3941749
@@ -2036,7 +2028,7 @@
  Linear search not attempted -- first point.
  Iteration  1 RMS(Cart)=  0.00012885 RMS(Int)=  0.00000001
  Iteration  2 RMS(Cart)=  0.00000001 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 7.02D-16 for atom     5.
+ ClnCor:  largest displacement from symmetrization is 9.16D-16 for atom     7.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.48923   0.00000   0.00000  -0.00001  -0.00001   2.48922
@@ -2122,12 +2114,12 @@
  --------------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- 1\1\GINC-MALLOS69\Freq\RHF\6-31G(d)\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\#N
+ 1\1\GINC-MALLOS73\Freq\RHF\6-31G(d)\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\#N
   Geom=AllCheck Guess=TCheck SCRF=Check GenChk RHF/6-31G(d) Freq\\Title
   Card Required\\0,1\C,-2.0825706108,-1.6763878241,0.\C,-1.4078306919,-
  0.5450784944,0.\C,0.057721019,-0.4677495931,0.\H,0.5424358418,-1.42693
  74043,0.\C,0.7816086177,0.636470115,0.\H,0.3456352589,1.6174355861,0.\
- H,1.854392881,0.5808663802,0.\F,-1.4566248474,-2.8459348656,0.\Cl,-2.3
+ H,1.854392881,0.5808663802,0.\F,-1.4566248473,-2.8459348657,0.\Cl,-2.3
  354524154,0.9301266577,0.\H,-3.148491293,-1.7671295373,0.\\Version=EM6
  4L-G09RevA.01\State=1-A'\HF=-712.663762\RMSD=2.660e-09\RMSF=4.085e-05\
  ZeroPoint=0.0746739\Thermal=0.0805627\Dipole=0.1080016,-0.0584576,0.\D
@@ -2201,9 +2193,8 @@
  0.,-0.00001058,0.00001261,0.\\\@
 
 
- IF YOU DON'T HAVE THE LAW - ARGUE THE FACTS.
- IF YOU DON'T HAVE THE FACTS - ARGUE THE LAW.
- IF YOU DON'T HAVE EITHER - POUND THE TABLE.
- Job cpu time:  0 days  0 hours  1 minutes 17.0 seconds.
+ GOORD'S AXIOM:  A MEETING IS AN EVENT AT WHICH
+ THE MINUTES ARE KEPT AND THE HOURS ARE LOST.
+ Job cpu time:  0 days  0 hours  1 minutes 14.8 seconds.
  File lengths (MBytes):  RWF=     18 Int=      0 D2E=      0 Chk=      2 Scr=      1
- Normal termination of Gaussian 09 at Sat Oct 26 19:18:28 2024.
+ Normal termination of Gaussian 09 at Sat Oct 26 18:15:28 2024.

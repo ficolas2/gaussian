@@ -1,7 +1,7 @@
  Entering Gaussian System, Link 0=g09
  Initial command:
- /u/local/G09/g09/l1.exe /tmp/marlin/22972.mallos00.local/Gau-10928.inp -scrdir=/tmp/marlin/22972.mallos00.local/
- Entering Link 1 = /u/local/G09/g09/l1.exe PID=     10929.
+ /u/local/G09/g09/l1.exe /tmp/marlin/23002.mallos00.local/Gau-21772.inp -scrdir=/tmp/marlin/23002.mallos00.local/
+ Entering Link 1 = /u/local/G09/g09/l1.exe PID=     21774.
   
  Copyright (c) 1988,1990,1992,1993,1995,1998,2003,2009, Gaussian, Inc.
                   All Rights Reserved.
@@ -358,7 +358,7 @@
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=             55.8871
  N-N= 2.587779846651D+02 E-N=-2.207474559331D+03  KE= 7.125592936233D+02
  Symmetry A'   KE= 6.562841391784D+02
- Symmetry A"   KE= 5.627515444484D+01
+ Symmetry A"   KE= 5.627515444483D+01
  Calling FoFJK, ICntrl=      2127 FMM=F ISym2X=1 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
  ***** Axes restored to original set *****
  -------------------------------------------------------------------
@@ -399,7 +399,7 @@
  Iteration  2 RMS(Cart)=  0.00208501 RMS(Int)=  0.00000099
  Iteration  3 RMS(Cart)=  0.00000115 RMS(Int)=  0.00000000
  Iteration  4 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 4.74D-16 for atom     6.
+ ClnCor:  largest displacement from symmetrization is 2.22D-16 for atom     4.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.56096  -0.04296   0.00000  -0.07660  -0.07660   2.48436
@@ -585,7 +585,7 @@
  Iteration  1 RMS(Cart)=  0.02801367 RMS(Int)=  0.00020931
  Iteration  2 RMS(Cart)=  0.00021819 RMS(Int)=  0.00000001
  Iteration  3 RMS(Cart)=  0.00000002 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 9.41D-12 for atom     8.
+ ClnCor:  largest displacement from symmetrization is 3.74D-11 for atom     8.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.48436   0.00472   0.00145   0.00264   0.00409   2.48845
@@ -694,7 +694,7 @@
  Two-electron integral symmetry is turned on.
     66 basis functions,   172 primitive gaussians,    66 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       260.5718038694 Hartrees.
+       nuclear repulsion energy       260.5718038693 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    66 RedAO= T  NBF=    53    13
@@ -766,12 +766,12 @@
      Eigenvalues ---    0.37358   0.50425   0.54111   0.618061000.00000
      Eigenvalues --- 1000.000001000.000001000.000001000.000001000.00000
      Eigenvalues --- 1000.000001000.000001000.00000
- RFO step:  Lambda=-8.50205745D-05 EMin= 2.36824121D-03
+ RFO step:  Lambda=-8.50205746D-05 EMin= 2.36824121D-03
  Quartic linear search produced a step of -0.01238.
  Iteration  1 RMS(Cart)=  0.00700266 RMS(Int)=  0.00002270
  Iteration  2 RMS(Cart)=  0.00002623 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 1.48D-12 for atom     1.
+ ClnCor:  largest displacement from symmetrization is 1.26D-12 for atom     8.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.48845  -0.00048  -0.00005  -0.00072  -0.00077   2.48767
@@ -880,7 +880,7 @@
  Two-electron integral symmetry is turned on.
     66 basis functions,   172 primitive gaussians,    66 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       260.7333504644 Hartrees.
+       nuclear repulsion energy       260.7333504643 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    66 RedAO= T  NBF=    53    13
@@ -958,7 +958,7 @@
  Iteration  1 RMS(Cart)=  0.00152688 RMS(Int)=  0.00000110
  Iteration  2 RMS(Cart)=  0.00000144 RMS(Int)=  0.00000000
  Iteration  3 RMS(Cart)=  0.00000000 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 1.26D-13 for atom     9.
+ ClnCor:  largest displacement from symmetrization is 7.89D-13 for atom    10.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                   (DIIS)     (GDIIS)  (Total)
     R1        2.48767   0.00012   0.00001   0.00012   0.00013   2.48781
@@ -1067,7 +1067,7 @@
  Two-electron integral symmetry is turned on.
     66 basis functions,   172 primitive gaussians,    66 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       260.7158586952 Hartrees.
+       nuclear repulsion energy       260.7158586951 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    66 RedAO= T  NBF=    53    13
@@ -1134,7 +1134,7 @@
  DIIS coeffs:      1.07649     -0.07436     -0.00212
  Iteration  1 RMS(Cart)=  0.00028800 RMS(Int)=  0.00000004
  Iteration  2 RMS(Cart)=  0.00000005 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 3.03D-14 for atom     1.
+ ClnCor:  largest displacement from symmetrization is 5.15D-14 for atom     1.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                   (DIIS)     (GDIIS)  (Total)
     R1        2.48781   0.00005   0.00001   0.00009   0.00010   2.48791
@@ -1371,10 +1371,10 @@
  XXXZ=              0.0000 YYYX=            -70.9983 YYYZ=              0.0000 ZZZX=              0.0000
  ZZZY=              0.0000 XXYY=           -173.7827 XXZZ=            -38.6203 YYZZ=           -173.3983
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=            -25.2476
- N-N= 2.607158586952D+02 E-N=-2.211651094035D+03  KE= 7.128450382912D+02
+ N-N= 2.607158586951D+02 E-N=-2.211651094035D+03  KE= 7.128450382912D+02
  Symmetry A'   KE= 6.565250298731D+02
  Symmetry A"   KE= 5.632000841808D+01
- 1\1\GINC-MALLOS66\FOpt\RHF\6-31G\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\# opt
+ 1\1\GINC-MALLOS69\FOpt\RHF\6-31G\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\# opt
   freq=noraman hf/6-31G geom=connectivity\\Title Card Required\\0,1\C,-
  2.0864624502,-1.6899110745,0.\C,-1.3764235289,-0.5813128347,0.\C,0.078
  8818642,-0.5001882918,0.\H,0.591774229,-1.4429904158,0.\C,0.7530216727
@@ -1386,11 +1386,10 @@
  =CS [SG(C4H4Cl1F1)]\\@
 
 
- GOORD'S AXIOM:  A MEETING IS AN EVENT AT WHICH
- THE MINUTES ARE KEPT AND THE HOURS ARE LOST.
- Job cpu time:  0 days  0 hours  2 minutes  8.1 seconds.
+ ABALONE: AN EXPRESSION OF DISBELIEF.
+ Job cpu time:  0 days  0 hours  2 minutes 13.1 seconds.
  File lengths (MBytes):  RWF=      5 Int=      0 D2E=      0 Chk=      1 Scr=      1
- Normal termination of Gaussian 09 at Sat Oct 26 19:10:27 2024.
+ Normal termination of Gaussian 09 at Sat Oct 26 20:12:21 2024.
  Link1:  Proceeding to internal job step number  2.
  --------------------------------------------------------------
  #N Geom=AllCheck Guess=TCheck SCRF=Check GenChk RHF/6-31G Freq
@@ -1537,7 +1536,7 @@
  Two-electron integral symmetry is turned on.
     66 basis functions,   172 primitive gaussians,    66 cartesian basis functions
     27 alpha electrons       27 beta electrons
-       nuclear repulsion energy       260.7158586952 Hartrees.
+       nuclear repulsion energy       260.7158586951 Hartrees.
  NAtoms=   10 NActive=   10 NUniq=   10 SFac= 7.50D-01 NAtFMM=   80 NAOKFM=F Big=F
  One-electron integrals computed using PRISM.
  NBasis=    66 RedAO= T  NBF=    53    13
@@ -1559,7 +1558,7 @@
  No special actions if energy rises.
  Keep R1 ints in memory in canonical form, NReq=3278450.
  SCF Done:  E(RHF) =  -712.560977603     A.U. after    1 cycles
-             Convg  =    0.7982D-09             -V/T =  1.9996
+             Convg  =    0.7981D-09             -V/T =  1.9996
  Range of M.O.s used for correlation:     1    66
  NBasis=    66 NAE=    27 NBE=    27 NFC=     0 NFV=     0
  NROrb=     66 NOA=    27 NOB=    27 NVA=    39 NVB=    39
@@ -1710,14 +1709,14 @@
  XXXZ=              0.0000 YYYX=            -70.9983 YYYZ=              0.0000 ZZZX=              0.0000
  ZZZY=              0.0000 XXYY=           -173.7827 XXZZ=            -38.6203 YYZZ=           -173.3983
  XXYZ=              0.0000 YYXZ=              0.0000 ZZXY=            -25.2476
- N-N= 2.607158586952D+02 E-N=-2.211651094044D+03  KE= 7.128450383122D+02
+ N-N= 2.607158586951D+02 E-N=-2.211651094044D+03  KE= 7.128450383122D+02
  Symmetry A'   KE= 6.565250299041D+02
  Symmetry A"   KE= 5.632000840803D+01
   Exact polarizability:  49.095  18.882  90.953   0.000   0.000  16.728
  Approx polarizability:  43.364  12.961  64.397   0.000   0.000  15.085
  Calling FoFJK, ICntrl=    100127 FMM=F ISym2X=1 I1Cent= 0 IOpClX= 0 NMat=1 NMatS=1 NMatT=0.
  Full mass-weighted force constant matrix:
- Low frequencies ---    0.0032    0.0035    0.0038    1.2788    1.7706    3.3822
+ Low frequencies ---    0.0030    0.0030    0.0035    1.2788    1.7706    3.3822
  Low frequencies ---  113.5686  180.4730  248.2403
  Diagonal vibrational polarizability:
         2.3073788       5.2319594       4.5236774
@@ -1975,7 +1974,7 @@
  Linear search not attempted -- first point.
  Iteration  1 RMS(Cart)=  0.00024932 RMS(Int)=  0.00000004
  Iteration  2 RMS(Cart)=  0.00000004 RMS(Int)=  0.00000000
- ClnCor:  largest displacement from symmetrization is 2.83D-15 for atom     7.
+ ClnCor:  largest displacement from symmetrization is 3.03D-15 for atom     7.
  Variable       Old X    -DE/DX   Delta X   Delta X   Delta X     New X
                                  (Linear)    (Quad)   (Total)
     R1        2.48781   0.00005   0.00000   0.00005   0.00005   2.48786
@@ -2061,14 +2060,14 @@
  --------------------------------------------------------------------------------
  GradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGradGrad
 
- 1\1\GINC-MALLOS66\Freq\RHF\6-31G\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\#N Ge
+ 1\1\GINC-MALLOS69\Freq\RHF\6-31G\C4H4Cl1F1\MARLIN\26-Oct-2024\0\\#N Ge
  om=AllCheck Guess=TCheck SCRF=Check GenChk RHF/6-31G Freq\\Title Card 
  Required\\0,1\C,-2.0864624502,-1.6899110745,0.\C,-1.3764235289,-0.5813
  128347,0.\C,0.0788818642,-0.5001882918,0.\H,0.591774229,-1.4429904158,
  0.\C,0.7530216727,0.6406374566,0.\H,0.2598896335,1.5919504902,0.\H,1.8
  246482438,0.6468921627,0.\Cl,-3.8681588969,-1.7181810324,0.\H,-1.63965
  35113,-2.656830577,0.\F,-2.011916596,0.6329033168,0.\\Version=EM64L-G0
- 9RevA.01\State=1-A'\HF=-712.5609776\RMSD=7.982e-10\RMSF=3.839e-05\Zero
+ 9RevA.01\State=1-A'\HF=-712.5609776\RMSD=7.981e-10\RMSF=3.839e-05\Zero
  Point=0.0747297\Thermal=0.0806682\Dipole=1.4155753,-0.4100691,0.\Dipol
  eDeriv=0.7722546,0.1313137,0.,-0.1772513,-0.1326228,0.,0.,0.,-0.340033
  3,0.3939407,-0.1705874,0.,0.2451552,0.9882524,0.,0.,0.,0.3732862,0.095
@@ -2140,10 +2139,8 @@
  000519,0.,-0.00001064,-0.00004050,0.\\\@
 
 
- GOOD SENSE ABOUT TRIVIALITIES IS BETTER THAN NONSENSE
- ABOUT THINGS THAT MATTER
-
-                                       -- MAX BEERBOHM
- Job cpu time:  0 days  0 hours  0 minutes 46.2 seconds.
+ THE WHOLE OF SCIENCE IS NOTHING MORE THAN A REFINEMENT OF EVEYDAY THINKING.
+                                                              -- A. EINSTEIN
+ Job cpu time:  0 days  0 hours  0 minutes 51.2 seconds.
  File lengths (MBytes):  RWF=     11 Int=      0 D2E=      0 Chk=      1 Scr=      1
- Normal termination of Gaussian 09 at Sat Oct 26 19:10:30 2024.
+ Normal termination of Gaussian 09 at Sat Oct 26 20:12:24 2024.
