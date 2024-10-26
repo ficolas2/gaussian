@@ -4,19 +4,34 @@ import periodictable
 import numpy as np
 import pandas as pd
 import cclib
+import sys
 
 
-bases = ["lanl2dz", "sdd", "mp2", "sddmp2"]
-n_isomers = 6
+path_base = sys.argv[1]
+if path_base[-1] == "/":
+    path_base = path_base[:-1]
+
+extract_path = path_base + "/extract"
+path = path_base + "/output"
+bases = []
+bases_pretty = []
+n_isomers = 0
+atoms = []
+with open(extract_path, "r") as f:
+    bases = f.readline().strip().split(" ")
+    bases_pretty = f.readline().strip().split(" ")
+    n_isomers = int(f.readline().strip())
+    atoms = f.readline().strip().split(" ")
+
 n_bases = len(bases)
-n_atoms = 10
+
+print(n_isomers, n_bases, len(bases_pretty))
 
 energies = np.zeros((n_isomers, n_bases))
 charges = np.empty((n_isomers, n_bases), dtype=object)
 dipolar_moments = np.zeros((n_isomers, n_bases))
 iso_names = [f"ISO{i}" for i in range(1, n_isomers + 1)]
 
-atom_nos = np.zeros((n_isomers, n_bases, n_atoms))
 
 def read_charges(data):
     atom_types = data.atomnos
@@ -26,9 +41,9 @@ def read_charges(data):
     atoms_read = np.ones(120)
     for i, charge in enumerate(data.atomcharges["mulliken"]):
         atom = atom_types[i]
-    
+        
         index = periodictable.elements[atom].symbol + str(atoms_read[atom].astype(int))
-    
+        
         reading_charges[index] = float(charge)
         atoms_read[atom] += 1
 
@@ -52,7 +67,8 @@ def parse_file(filename):
 
 for i_isomer in range(n_isomers):
     for i_base in range (n_bases):
-        filename = f"output/{i_isomer+1}-{bases[i_base]}.LOG"
+        filename = f"{path}/{i_isomer+1}-{bases[i_base]}.LOG"
+        print(filename)
         data = cclib.io.ccread(filename)
         
         charges[i_isomer][i_base] = read_charges(data)
@@ -64,7 +80,7 @@ for i_isomer in range(n_isomers):
 
 
 # Dipolar moments
-dipoles = pd.DataFrame(dipolar_moments, columns=bases, index=iso_names)
+dipoles = pd.DataFrame(dipolar_moments, columns=bases_pretty, index=iso_names)
 pd.options.display.float_format = "{:,.2f}".format
 print("Dipolar moments (Debye)")
 print(dipoles)
@@ -72,7 +88,7 @@ print(dipoles)
 print()
 
 # Energies
-energies = pd.DataFrame(energies, columns=bases, index=iso_names)
+energies = pd.DataFrame(energies, columns=bases_pretty, index=iso_names)
 
 pd.options.display.float_format = "{:,.7f}".format
 print("Energies (Hartree)")
@@ -88,12 +104,12 @@ delta_energies = energies_kcal.sub(min_energies_per_isomer, axis=1)
 pd.options.display.float_format = "{:,.5f}".format
 print("Delta energies (kcal/mol)")
 print(delta_energies)
+print()
 
 # Charges
-# column_order = ["C1", "C2", "Sn1", "Sn2", "Br1", "F1", "H1", "H2", "H3", "H4"]
-column_order = ["C1", "C2", "Sn1", "Sn2", "Br1", "F1"]
 for i_isomer in range(n_isomers):
     df = pd.DataFrame.from_records(charges[i_isomer])
-    df = df[column_order]
-    df.index = bases
+    df = df[atoms]
+    df.index = bases_pretty
     print(df)
+    print()
