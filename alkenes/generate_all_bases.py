@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-bases = ["6-31G", "6-31G(d)", "631G(d,p)", "cc-pvdz", "cc-pvtz"]
+bases = ["6-31G", "6-31G(d)", "6-31G(d,p)", "cc-pvdz", "cc-pvtz"]
 
 for i_isomer in range(1, 7):
     with open(f"ISO{i_isomer}.gjf", "r") as f:
