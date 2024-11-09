@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introducción}{3}{section.1}%
+\contentsline {section}{\numberline {2}Estudio de isómeros del (fluorobromovinil)diestaneno}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Energías relativas}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Cargas de Mulliken}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Distancias de enlace}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Frecuencias de vibración}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Estudio de compuestos $M^{2+}-C_6H_6$}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Base 6-31G y LANL2DZ para Sr}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Base 6-31G(d)}{10}{subsection.3.2}%

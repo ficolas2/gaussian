@@ -2,3 +2,4 @@ lanl2dz sdd mp2 sddmp2
 hf/lanl2dz hf/sdd mp2/lanl2dz mp2/sdd
 6
 C1 C2 Sn1 Sn2 Br1 F1
+F-C(L), Br-C(L), H-C(L), C-C(L), Sn-Sn(L), Sn-C(6-2)
